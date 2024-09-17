@@ -1,6 +1,6 @@
-import { Category } from '../schemas/book.schema';
+import { Category } from '../book.schema';
 
-export class createBookDto {
+export class readonlyBookDto {
   readonly title: string;
   readonly description: string;
   readonly price: number;
